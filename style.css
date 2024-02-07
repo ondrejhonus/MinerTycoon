@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+}
+body{
+    color: white;
+    background-color: #000000;
+    opacity: 0.8;
+    background: linear-gradient(135deg, #4f370f55 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #4f370f 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #4f370f55 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #4f370f 25%, #000000 25%) 0px 0/ 20px 20px;
+
+}
+.copy {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: fixed;
+    font-size: small;
+    margin: 0;
+  }
+  .centered{
+    left: 50%;
+    transform: translate(-50%, -0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    vertical-align: middle;
+    position: absolute;
+    text-align: center;
+  }
+  div.mainThing p{
+    font-weight: 500;
+    opacity: 1 !important;
+
+  }
+  div.mainThing h1{
+    font-weight: 800;
+    opacity: 1 !important;
+
+  }
+  .btn-success{
+    background-color: #4f370f;
+    border: #140e03 solid 1px;
+    padding: 2vh 12vw;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .btn-success:hover{
+    background-color: #140e03;
+    border: #4f370f solid 1px;
+  }
+  .backgroundThing{
+    background-color: #000000;
+    padding: 3vh;
+  }
+    div.backgroundThing div.mainThing p, div.backgroundThing div.mainThing h1{
+        opacity: 1;
+    }
