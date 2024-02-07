@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+  font-family: "Press Start 2P";
+}
+header {
+  background-color: #2c2c2c;
+  padding: 1vh;
+  height: 6vh;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+.gold {
+  color: rgb(204, 159, 10);
+  font-weight: bold;
+  margin-right: 3vh;
+  position: absolute;
+  right: 0;
+  font-size: 3vh;
+  vertical-align: middle;
+  top: 1.5vh;
+}
+
+.store {
+  color: white;
+  font-size: 1.2vh;
+  margin-left: 2vh;
+  margin-top: 6vh;
+  position: absolute;
+}
+.storeItem {
+  margin-bottom: 2vh;
+  background-color: #47474746;
+  padding: 2vh;
+}
+.storeBtn {
+  background-color: #474747;
+  color: white;
+  padding: 1vh 2vh;
+}
+.store p {
+  margin: 0.2vh;
+}
+.store {
+  max-height: 800px; 
+  overflow-y: auto;
+
+  scrollbar-color: #888888 #3f3f3f; 
+}
+.store::-webkit-scrollbar-thumb {
+  background: #888888; 
+  border-radius: 10px; 
+}
+
+.store::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Loading screen styles */
+#loading-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top: 4px solid #fff;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+

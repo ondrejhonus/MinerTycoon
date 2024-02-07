@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <title>Miner Tycoon JS</title>
     <meta charset="utf-8" />
     <!-- SOL -->
@@ -33,13 +37,56 @@
   </head>
 
   <body>
-    <header></header>
-    <main></main>
-    <script src="js/p5.js"></script>
+    <header>
+      <div class="goldBg">
+        <h2 class="gold" id="gold">Gold: NaN</h2>
+      </div>
+    </header>
+    <main>
+      <div class="store">
+        <div class="storeItem">
+          <h4>Miner</h4>
+          <p>Cost: 10 Gold</p>
+          <button class="storeBtn" id="miner" onclick="buyMiner()">Buy</button>
+        </div>
+        <div class="storeItem">
+          <h4>Tesco Drill</h4>
+          <p>Cost: 100 Gold</p>
+          <button class="storeBtn" id="drill">Buy</button>
+        </div>
+        <div class="storeItem">
+          <h4>Factory</h4>
+          <p>Cost: 1,000 Gold</p>
+          <button class="storeBtn" id="factory">Buy</button>
+        </div>
+        <div class="storeItem">
+          <h4>Automatic Pickaxe</h4>
+          <p>Cost: 10,000 Gold</p>
+          <button class="storeBtn" id="autoPickaxe">Buy</button>
+        </div>
+        <div class="storeItem">
+          <h4>Giga Chad</h4>
+          <p>Cost: 100,000 Gold</p>
+          <button class="storeBtn" id="gigaChad">Buy</button>
+        </div>
+        <div class="storeItem">
+          <h4>Super Drill</h4>
+          <p>Cost: 1,000,000 Gold</p>
+          <button class="storeBtn" id="superDrill">Buy</button>
+        </div>
+      </div>
+
+      <div id="loading-screen">
+        <h1>Loading...</h1>
+        <div class="spinner"></div>
+    </div>
+    <div id="canvas-container">
+        <!-- p5.js canvas will be created here -->
+    </div>
+    </main>
+    <script src="https://github.com/processing/p5.js/releases/download/v1.9.0/p5.js"></script>
     <script src="script.js"></script>
-    <footer>
-      <p class="copy">TycoonJS 2024 - Ondřej Honus</p>
-    </footer>
+    <footer></footer>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script

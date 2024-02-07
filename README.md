@@ -18,7 +18,7 @@
 </h4> 
 
 ## Visit ##
-❌ [tycoon.ondrejhonus.xyz](https://tycoon.ondrejhonus.xyz)
+[mine.ondrejhonus.xyz](https://mine.ondrejhonus.xyz)
 
 
 
@@ -30,13 +30,12 @@ so this time I tried my best to do some kind of tycoon miner game, but on a webp
 
 ## ✨ Features ##
 
-✅ Color picker;\
-✅ Paint tool;\
-✅ Eraser;\
-✅ Paint tool size;\
-✅ Bucket;\
-❌ Image import;\
-❌ Image export;
+✅ Store;\
+✅ Gold as currency;\
+❌ Functioning buying;\
+❌ Spawning of things;\
+❌ Multiplication of money income by things you buy;\
+❌ Online scoreboard;
 
 
 ## 🚀 Technologies ##
